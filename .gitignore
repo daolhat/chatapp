@@ -1,0 +1,26 @@
+#Ignore node_modules
+/chat-app-fontend/node_modules/
+
+/chat-app-fontend/dist/
+/chat-app-fontend/build/
+
+# Ignore IDE settings
+/chat-app-fontend/.idea/
+/chat-app-fontend/.vscode/
+*.iml
+
+# Ignore Java build files in backend
+/chat-app-backend/target/
+/chat-app-backend/.classpath
+/chat-app-backend/.project
+/chat-app-backend/.settings/
+/chat-app-backend/.idea/
+/chat-app-backend/.mvn/
+#/chat-app-backend/mvnw
+#/chat-app-backend/mvnw.cmd
+
+#/chat-app-backend/src/main/resources/application.properties
+
+# OS generated files
+.DS_Store
+Thumbs.db
